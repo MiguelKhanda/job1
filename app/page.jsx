@@ -1,4 +1,3 @@
-
 import About from "@/components/About";
 import Choice from "@/components/Choice";
 import Contact from "@/components/Contact";
