@@ -1,6 +1,5 @@
 'use client'
 
-
 import Image from "next/image"
 import Button from "./Button"
 import { motion } from "framer-motion"
@@ -12,14 +11,14 @@ const Hero = () => {
             <motion.h1 
             initial={{y:-100, scale:0}}
             animate={{y:0, scale:1}}
-            transition={{duration:10,type:'spring', stiffness:100}}
+            transition={{duration:2,}}
             className="mt-40 text-light text-4xl"><span className=" text-primary">
                 Eden</span>Care
             </motion.h1>
             <MotionImage
                 initial={{y:-100, scale:0}}
                 animate={{y:0, scale:1}}
-                transition={{duration:10,type:'spring', stiffness:100, ease:'easeInOut'}}
+                transition={{duration:2, ease:'easeInOut'}}
                 src= '/images/background_home.png'
                 width={80}
                 height={80}

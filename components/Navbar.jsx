@@ -1,8 +1,10 @@
+import './Navbar.css'
+
 import Image from 'next/image'
 import {IoMenu} from 'react-icons/io5'
 const Navbar = () => {
   return (
-    <nav className='fixed flex w-full items-center justify-between bg-primary px-4 py-4 backdrop-blur-md opacity-70 top-0 left-0 border-b-2 border-light'>
+    <nav className='fixed flex w-full items-center justify-between  px-4 py-4 backdrop-blur-md opacity-70 top-0 left-0 border-b-2 border-light'>
         <Image
             src='/images/logo_changed.jpg'
             alt='EdenCare logo'
